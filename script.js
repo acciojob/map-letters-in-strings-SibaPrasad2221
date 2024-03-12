@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const mapString = str => {
+fun mapLetters(str){
    const map = {};
    for(let i = 0; i < str.length; i++){
       if(map.hasOwnProperty(str[i])){
@@ -9,4 +9,4 @@ const mapString = str => {
       };
    };
    return map;
-};
+}
